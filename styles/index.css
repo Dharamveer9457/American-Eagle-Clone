@@ -1,0 +1,368 @@
+
+#nav2{
+  display: flex;
+  width:95%;
+  margin: auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding: 0px 20px;
+  justify-content: space-between;
+}
+#logo{
+  display: block;
+  margin-left: 500px;
+}
+#navinnav{
+  width:8%;
+  display:flex;
+  height:30px;
+  padding-left:15px;
+  justify-content: space-between;
+  padding-top:10px;
+}
+#navinnav>a>img{
+ width:40px;
+ height:40px;
+}
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    /* background-color: #333; */
+    font-family: Arial;
+    width:70%;
+    margin:auto;
+  }
+
+  /* Links inside the navbar */
+  /* .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  } */
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    margin-left: 4.5%;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    /* margin: 0; Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar .dropdown:hover .dropbtn {
+    background-color: rgb(243, 243, 243);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  #centerimage{
+    position: relative;
+    text-align: center;
+    color:white
+  }
+  .text{
+    width:80%;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-family: 'Courgette', cursive;
+  }
+  #women{
+    width:10%;
+    height:50px;
+    border-radius: 15px;
+    font-size: 16px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    border:none;
+    cursor: pointer;
+    background-color: rgb(68, 65, 125); 
+    color: rgb(255, 255, 255); 
+    border: 2px solid #ffffff;
+    transition-duration: 0.4s;
+  }
+  #men{
+    width:10%;
+    height:50px;
+    border-radius: 15px;
+    font-size: 16px;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    transform: translate(-50%, -50%); 
+    border:none;
+    cursor: pointer;
+    background-color: rgb(68, 65, 125); 
+    color: rgb(255, 255, 255); 
+    border: 2px solid #ffffff;
+    transition-duration: 0.4s;
+  }
+  #women:hover {
+    background-color: #1aedd8;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  #men:hover {
+    background-color: #1aedd8;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+
+  #section{
+    width:100%;
+    display: flex;
+    margin: auto;
+  }
+
+  #leftsection{
+    position: relative;
+    text-align: center;
+    color:black;
+    width:50%;
+  }
+  .lefttext{
+    width: 80%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    line-height: 5px;
+    font-family: 'Francois One', sans-serif;
+  }
+  #shopwomen{
+   width: 35%;
+   height: 40px;
+   font-size: 15px;
+   border-radius: 5px;
+   cursor: pointer;
+   background-color: rgb(243, 243, 243); 
+   color: rgb(0, 0, 0); 
+   border: 2px solid #ffffff;
+   transition-duration: 0.4s;
+   font-weight: bold;
+  }
+  #shopwomen:hover {
+    background-color: #92aca9;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+
+  #rightsection{
+    position: relative;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    width:50%;
+  }
+
+  .righttext{
+    width: 80%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    line-height: 5px;
+    font-family: 'Francois One', sans-serif;
+  }
+  
+  #shopmen{
+    width: 35%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(243, 243, 243); 
+    color: rgb(0, 0, 0); 
+    border: 2px solid #ffffff;
+    transition-duration: 0.4s;
+    font-weight: bold;
+   }
+   #shopmen:hover {
+     background-color: #92aca9;
+     color: rgb(0, 0, 0);
+     font-weight: bold;
+   }
+
+
+   .slide {
+    position: relative;
+    width: 35%;
+    flex-shrink: 0;
+    margin-right: 15px;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: 425px;
+  }
+
+  .text1 {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  #slider{
+    margin:auto;
+    width: 80%;
+    height: 442px;
+    display: flex;
+    overflow-x: auto
+  }
+  
+  #addyourphoto{
+    width:150px;
+    height:50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  #agbutton{
+  width:25%;
+  margin:auto;
+  }
+
+  #gallery{
+    width:150px;
+    height:50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    margin-left:60px;
+  }
+  
+  #feedbackbutton{
+    border:1px solid rgb(183, 177, 177);
+    width:80%;
+    height:50px;
+    text-align: center;
+    padding-top: 25px;
+    margin:auto;
+    font-size: 15px;
+    font-family: 'Courgette', cursive;
+    color:#535454
+  }
+
+  .fa {
+    padding:15px;
+    width: 18px;
+    margin-left:5px;
+    margin-right: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+  #mainfooter{
+    background-color: #c9c9c9;
+    line-height: 30px;
+  }
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width:95%;
+    font-family: 'Open Sans', sans-serif;
+    font-size:13px
+  }
+  .footerbox p{
+    cursor: pointer;
+  }
+  #submitbutton{
+    font-size:13px;
+    border:none;
+    background-color: #000000;
+    color:white;
+    transition-duration: 0.4s;
+  }
+  #submitbutton:hover {
+    background-color: #959595;
+    color: rgb(0, 0, 0);
+  }
+
+  #lastline{
+    background-color: #c9c9c9;
+    margin:auto;
+    text-align: center;
+    padding-top:2px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+
+
+
+
+  
