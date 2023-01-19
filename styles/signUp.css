@@ -1,0 +1,286 @@
+
+#nav2{
+  display: flex;
+  width:95%;
+  margin: auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding: 0px 20px;
+  justify-content: space-between;
+}
+#logo{
+  display: block;
+  margin-left: 500px;
+}
+#navinnav{
+  width:8%;
+  display:flex;
+  height:42px;
+  padding-left:15px;
+  justify-content: space-between;
+  padding-top:10px;
+}
+#navinnav>.dropdown>a>img{
+ width:40px;
+ height:40px;
+}
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    /* background-color: #333; */
+    font-family: Arial;
+    width:70%;
+    margin:auto;
+  }
+
+
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    margin-left: 4.5%;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    /* margin: 0; Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar .dropdown:hover .dropbtn {
+    background-color: rgb(243, 243, 243);
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+    #signinsignupform{
+        width:80%;
+        margin: auto;
+        display: flex;
+    }
+
+   .signinform{
+     background-color: antiquewhite;
+     width:40%;
+     padding:10px 20px 20px;
+     margin:auto;
+   }
+   .signinform>p{
+    text-align: center;
+    line-height: 10px;
+   }
+   .signinform>form>button{   
+    background-color: #040404;   
+    width: 25%;  
+     color: rgb(255, 255, 255);  
+     font-size: 18px; 
+     padding: 5px;   
+     margin-left:10px;
+     margin-right: 10px;  
+     border: none;   
+     cursor: pointer;   
+    } 
+    .signinform>img{
+      margin-left:25px;
+    }
+    input[type=text], input[type=password] {   
+        width: 100%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display: inline-block;   
+        border: 1px solid rgb(102, 104, 102);   
+        box-sizing: border-box;   
+    }
+    
+    #videoloop{
+      width:50%;
+      margin: auto;
+    }
+    #videoloop>img{
+      margin-left:180px;
+      object-fit: fill;
+      height: 698px;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        
+    }
+  
+    .signupform{
+        background-color: rgb(255, 255, 255);
+        width:40%;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding:0px 20px 20px;
+        margin-right: 40px;
+    }
+    .signupform>form{
+      margin-top:20px;
+      font-weight: bold;
+      color: #4a0404;
+      font-size: 18px;
+    }
+    .signupform input{
+      border-radius: 10px;
+      border: none;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    }
+    .signupform>p{
+        text-align: center;
+        line-height: 15px;
+        font-size: 22px;
+        font-family: 'Open Sans', sans-serif;
+        margin-top: 50px;
+    }
+    .signupform>form>button{   
+        background-color: #040404;   
+        width: 35%; 
+        height: 40px; 
+        border-radius: 20px;
+        color: rgb(255, 255, 255);  
+        font-size: 18px; 
+        padding: 5px;     
+        margin-top: 30px;
+        margin-left: 170px;
+        cursor: pointer;  
+        
+    }
+    .signupform button:hover{
+      background-color: #ffffff;
+      color: black;
+    }
+    .vl {
+        border-left: 1px solid green;
+        height: 100;
+      }
+    .registerbtn{
+        margin: auto;
+    }
+
+    .fa {
+      padding:15px;
+      width: 18px;
+      margin-left:5px;
+      margin-right: 5px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+      
+    }
+    #feedbackbutton{
+      border:1px solid rgb(183, 177, 177);
+      width:80%;
+      height:50px;
+      text-align: center;
+      padding-top: 25px;
+      margin:auto;
+      font-size: 15px;
+      font-family: 'Courgette', cursive;
+      color:#535454
+    }
+  
+    .fa {
+      padding:15px;
+      width: 18px;
+      margin-left:5px;
+      margin-right: 5px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+      
+    }
+    .fa:hover {
+      opacity: 0.7;
+    }
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    
+    #mainfooter{
+      background-color: #c9c9c9;
+      line-height: 30px;
+    }
+    .footer{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: auto;
+      width:95%;
+      font-family: 'Open Sans', sans-serif;
+      font-size:13px
+    }
+    .footerbox p{
+      cursor: pointer;
+    }
+    #submitbutton{
+      font-size:13px;
+      border:none;
+      background-color: #000000;
+      color:white;
+      transition-duration: 0.4s;
+    }
+    #submitbutton:hover {
+      background-color: #959595;
+      color: rgb(0, 0, 0);
+    }
+  
+    #lastline{
+      background-color: #c9c9c9;
+      margin:auto;
+      text-align: center;
+      padding-top:2px;
+      font-size: 15px;
+      line-height: 25px;
+    }
+  
+    
+  
+  
+  
+    

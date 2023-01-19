@@ -15,12 +15,12 @@
 #navinnav{
   width:8%;
   display:flex;
-  height:30px;
+  height:42px;
   padding-left:15px;
   justify-content: space-between;
   padding-top:10px;
 }
-#navinnav>a>img{
+#navinnav>.dropdown>a>img{
  width:40px;
  height:40px;
 }
@@ -34,16 +34,7 @@
     margin:auto;
   }
 
-  /* Links inside the navbar */
-  /* .navbar a {
-    float: left;
-    font-size: 16px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  } */
-  
+
   .dropdown {
     float: left;
     overflow: hidden;
@@ -361,7 +352,7 @@
     line-height: 25px;
   }
 
-
+  
 
 
 
