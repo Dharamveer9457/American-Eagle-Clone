@@ -15,7 +15,7 @@ register.addEventListener("click",function(event){
         phone : form.phone.value,
         password : form.password.value
     }
-   if(firstname == "" || lastname=="" || email=="" || phone=="" || password==""){
+   if(firstname.value == "" || lastname.value=="" || email.value=="" || phone.value=="" || password.value==""){
     alert("Please fill all the details")
    }else{
     signupData.push(credential)

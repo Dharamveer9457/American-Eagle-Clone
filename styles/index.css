@@ -107,7 +107,7 @@
   #women{
     width:10%;
     height:50px;
-    border-radius: 15px;
+    border-radius: 25px;
     font-size: 16px;
     position: absolute;
     top: 20%;
@@ -123,7 +123,7 @@
   #men{
     width:10%;
     height:50px;
-    border-radius: 15px;
+    border-radius: 25px;
     font-size: 16px;
     position: absolute;
     top: 20%;
