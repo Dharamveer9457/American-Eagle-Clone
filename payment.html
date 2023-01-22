@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mens Clothing</title>
+    <title>Payment</title>
 
-    <link rel="stylesheet" href="./styles/mensclothes.css">
+    <link rel="stylesheet" href="./styles/payment.css">
 
 </head>
 <body>
 
-  <!-- Automatic Slider -->
+  <!-- SLIDESHOW -->
 
-  <div id = "slideshow"></div>
-    
-  
-  <!-- Logo & Cart & Login -->
+  <div id="slideshow"></div>
+
+    <!-- Logo & Cart & Login -->
     
     <div id="nav2">
       <a href="./index.html"><img id="logo" style="width:400px" src="./images/LogoEdited.jpg" alt="Logo"></a>
@@ -25,14 +24,14 @@
         <a href="./signIn.html" style="font-size: 18px; font-weight: bold;">Sign In</a>
         <a href="./signUp.html" style="font-size: 18px; font-weight: bold;">Sign Up</a></div>
       </div>
-      <a href="./cart.html"><img style="width:38; height: 40px" src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png" alt="shopping cart"></a>
+      <a href=""><img style="width:38; height: 40px" src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png" alt="shopping cart"></a>
       </div>
       </div>
     </div><br>
 
     <!-- DropDown Menu -->
 
-    
+   
     <div class="navbar">
       <div class="dropdown">
         <button class="dropbtn">New</button>
@@ -110,87 +109,29 @@
         </div><br>
   </div><hr>
 
-    <!-- MENS CLOHTHING -->
+    <h1 style="text-align: center;font-family: 'Courgette', cursive"><u>Payment Option</u></h1>
 
-<h1 style=" font-family: 'Courgette', cursive;text-align:center"><u>Men's Clothes</u></h1><br>
+    <div id="paymentmode">
+        
+        <input type="radio" value="COD" id="cod" unchecked><b style="font-size: 20px;">Cash On Delivery</b>
+        <input type="radio" value="CP" id="cp" unchecked><b style="font-size: 20px;">Card Payment</b>
+        
+        <form>
+            
+            <input type="text" placeholder="Name on Card" id="name" />
+            <input type="number" placeholder="Card Number" id="cardNo" />
+            <input type="number" placeholder="CVV" id="cardCvv" />
+            <button id="submit">Confirm</button>
+            <!-- <input type="number" placeholder="OTP" id="otp"/> -->
+            <!-- <button id="orderplaced">PLACE ORDER</button> -->
+        </form>
 
-<div id="centerimage">
-    <img style="width:100%" src="https://s7d2.scene7.com/is/image/aeo/20230119-ae77-lg?scl=1&qlt=60&fmt=jpeg" alt="">
-    <div class="text">The perfect clothing for every man<br>Your one stop place.</div>
-    <button id="shopnow">SHOP NOW</button>
-</div><br><br><br>
+    </div><br><hr>
 
-<div id="categorybox">
-
-    <div id="category">
-        <img src="./images/new arrivals.jpg" alt="">
-        <a href="">Shirts</a>
-    </div>
-    <div id="category">
-        <img src="./images/tops1.webp" alt="">
-        <a href="">Tops</a>
-    </div>
-    <div id="category">
-        <img src="./images/bottoms.jpeg" alt="">
-        <a href="">Bottoms</a>
-    </div>
-    <div id="category">
-        <img src="./images/jeans.jpeg" alt="">
-        <a href="">Jeans</a>
-    </div>
-    <div id="category">
-        <img src="./images/shoes.jpeg" alt="">
-        <a href="">Shoes</a>
-    </div>
-    <div id="category">
-        <img src="./images/underwear.jpeg" alt="">
-        <a href="">Underwear</a>
-    </div>
-</div><br><br>
-
-<div id="centerimage">
-    <img style="width:100%" src="https://s7d2.scene7.com/is/image/aeo/20230119-whp-promo-lg?scl=1&qlt=60&fmt=jpeg" alt="">
-    <div class="text" style="font-weight: bold;font-family: 'Secular One', sans-serif; line-height:30px;color:rgb(0, 0, 0)
-    "><p style="font-size:30px;">Jeans On Sale</p><p style="font-size:50px;">Upto 40% off</p></div>
-    <button id="shopnow" style="top:70%;border-radius: 30px;width:20%;">SHOP NOW</button>
-</div><br><br><br>
-
-<!--------FILTER & Sort-------->
-
-<div id="filtersort">
-
-  <div id="filterselect">
-    <select id="filter">
-      <option value="">Filter By-</option>
-      <option value="Shirts">Shirts</option>
-      <option value="Tops">Tops</option>
-      <option value="Bottoms">Bottoms</option>
-      <option value="Jeans">Jeans</option>
-      <option value="Shoes">Shoes</option>
-      <option value="Underwear">Underwear</option>
-    </select>
-  </div>
-
-  <div id="sortselect">
-    <select id="sort">
-      <option value="">Sort By Price</option>
-      <option value="asc">Low to High</option>
-      <option value="desc">High to Low</option>
-    </select>
-  </div>
-
-</div><hr>
+    
 
 
-<!--------------- PRODUCT LIST ------------------>
-
-<div id="productcontainer"> 
-
- 
-</div><br><hr>
-
-
-    <!-- FOOTER -->
+     <!-- FOOTER -->
 
 <div id="feedbackbutton">Let us know how we are doing. <a href="">Give feedback</a></div><br>
 
@@ -247,5 +188,5 @@
   </div>  
 
 </body>
-<script src="./scripts/mensclothes.js"></script>
+<script src="./scripts/payment.js"></script>
 </html>

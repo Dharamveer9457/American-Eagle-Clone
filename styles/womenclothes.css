@@ -104,6 +104,27 @@
         font-size: 25px;
         font-family: 'Courgette', cursive;
       }
+      #shopnow1{
+         width:20%;
+        height:50px;
+        border-radius: 25px;
+        font-size: 16px;
+        position: absolute;
+        top: 85%;
+        left: 13%;
+        transform: translate(-50%, -50%);
+        border:none;
+        cursor: pointer;
+        background-color: rgb(14, 97, 44); 
+        color: rgb(255, 255, 255); 
+        border: 2px solid #ffffff;
+        transition-duration: 0.4s;
+      }
+      #shopnow1:hover {
+        background-color: #000000;
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+      }
       #shopnow{
         width:20%;
         height:50px;
@@ -144,7 +165,7 @@
       }
 
       #category>img{
-        width: 130px;
+        width: 115px;
         height: 130px;
         border-radius: 50%;
     }
