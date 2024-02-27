@@ -1,6 +1,6 @@
 ===================PROJECT DETAILS==================
 
-Project Code : standing-gun-87<br>
+Project Code : standing-gun-8<br>
 Project Website : americaneagle.com<br>
 Cloned Name : AmericanClothing.com<br>
 Tech Stacks : HTML, CSS, Javascript<br>
